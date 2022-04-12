@@ -3,6 +3,13 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   content: ['./*.html'],
   theme: {
+    screens:{
+      xs:'260',
+      sm:'360px',
+      md:'1080px',
+      lg:'1580px',
+      xl:'1920px'
+    },
     extend: {
       fontFamily: {
         'sans': ['Poppins', ...defaultTheme.fontFamily.sans],
