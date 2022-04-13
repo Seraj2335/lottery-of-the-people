@@ -9,9 +9,15 @@
   <body>
     
     <div class="md:pl-34 pl-5 pr-5 md:pr-35.5 pt-8.20">
-     
+     <div class="relative ">
+       <div class="right-0 absolute md:hidden mb-4 " id="menu">
+        <svg  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+       </div>
+      
       <nav class="bg-white border-gray-200  py-2.5 rounded dark:bg-gray-800 md:flex ">
-        <div class=" md:w-60 md:mr-40  w-auto h-auto items-center">
+        <div class=" md:w-60 mr-60  w-auto h-auto items-center">
           <img src="assets/Logo-Color.png" alt="Logo-Color">
         </div>
         
@@ -20,7 +26,7 @@
         
          
           <div class=" w-full md:block md:w-auto" id="mobile-menu">
-            <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium items-center">
+            <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium lg:items-center " d="ulList">
               <li>
                 <a href="#" class="block py-2 pr-4 pl-3 text-unnamed bg-blue-700 rounded md:bg-transparent  md:p-0 dark:text-white text-smr0 hover:text-blue font-semibold" aria-current="page">PLAY</a>
               </li>
@@ -41,26 +47,28 @@
               </li>
             </ul>
           </div>
-        <div class="md:ml-28.5 ">
-          <button class=" border-0.25 border-red hover:border-blue rounded-full text-red text-smr0 font-semibold hover:text-blue px-9 py-2 mr-3">CREATE GAME</button>
+        <div class="xl:ml-28.5 ">
+          <button class="sm:mb-4 border-0.25 border-red hover:border-blue rounded-full text-red text-smr0 font-semibold hover:text-blue px-9 py-2 mr-3">CREATE GAME</button>
           <button class="   bg-blue hover:bg-red rounded-full text-white text-smr0 px-9 py-2 ">CONNECT WALLET</button>
         </div> 
         </div>
       </nav>
+    
+    </div>
       <div class=" bg-yello xl:flex justify-between rounded-xl relative overflow-hidden mt-9.5 ">
         <img src="assets/Group 909.svg" alt="" >
-        <img src="assets/Group 679.svg" alt="">
-        <div class="absolute w-full  top-0 inset-x-0 bg-blue-400 text-white text-xs  leading-4 ml-35  pr-10 mt-36.5">
+        <img src="assets/Group 679.svg" alt="" class="xl:w-180.25 xl:h-110.5 xl:mt-24.75 mr-18.5 mb-24.5 sm:pr-8 sm:pl-8">
+        <div class="absolute w-full  top-0 inset-x-0 bg-blue-400 text-white text-xs   xl:ml-69.5 ml-15  pr-10 mt-36.5">
          <h1 class="text-black xl:text-smr6 font-bold text-sm">
            Decentralised lottery
          </h1 >
          <h3 class="text-black xl:text-smr5 font-semibold text-sm pr-5">
            for the people, by the people
          </h3>
-         <h5 class="mt-10 xl:text-smr4 text-sm font-semibold text-black xl:w-674 xl:h-52 w-auto h-auto pr-7">
+         <h5 class="mt-10 xl:text-smr4 text-sm font-semibold text-black xl:w-168.5 w-auto h-auto pr-7">
            lottery of the people is distributed system which allows anyone to create, distribute ,buy or sell digital NFT lottery tickets.
          </h5>
-         <button class="bg-red hover:bg-blue rounded-full mt-16 py-3 px-45  text md:text-smr1 text-sm"
+         <button class="bg-red hover:bg-blue rounded-full mt-15  py-3 px-17.75  text md:text-smr1 text-sm"
          >
            PLAY AND EARN
          </button>
@@ -317,6 +325,6 @@
   
   
 </div>
- 
+ <script src="main.js"></script>
   </body>
 </html>

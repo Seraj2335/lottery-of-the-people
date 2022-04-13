@@ -1,6 +1,12 @@
-import './style.css'
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+const menuObject=document.querySelector('#menu');
+const listObject=document.querySelector('#ulList');
+
+listObject.addEventListener('click',()=>{
+  console.log('clicked');
+if(menuObject.classList.contains('hidden')){
+  menuObject.classList.remove('hidden');
+}else{
+  menuObject.classList.add('hidden');
+}
+});
